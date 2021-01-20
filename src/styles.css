@@ -1,255 +1,239 @@
 /* You can add global styles to this file, and also import other style files */
 
-body{
-    background-color: #EDEFEF;
-    font-family: Arial, Helvetica, sans-serif;
+body {
+  background-color: #edefef;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .space_background {
-    background-color: white;
+  background-color: white;
 }
 
 h6 {
-    /* text-align: center; */
+  /* text-align: center; */
 }
 
 h5 {
-    font-size: 15px;
-    font-weight: bold;
+  font-size: 15px;
+  font-weight: bold;
 }
 
-
 .filter_padding {
-    flex: 1 1 auto;
-    min-height: 1px;
-    padding: 1.25rem;
-    min-height: 400px;
-    max-height: 600px;
-    margin-bottom: 5%;
+  flex: 1 1 auto;
+  min-height: 1px;
+  padding: 1.25rem;
+  min-height: 400px;
+  max-height: 600px;
+  margin-bottom: 5%;
 }
 
 .card_background {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    min-width: 0;
-    word-wrap: break-word;
-    background-color: #fff;
-    background-clip: border-box;
-    border: 1px solid rgba(0, 0, 0, 0.125);
-    border-radius: 0.25rem;
-    cursor: pointer;
-    text-align: center;
-    padding: 0.25rem;
-    background-color: #72BA4D;
-    margin-bottom: 5%;
-    text-transform: capitalize;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+  cursor: pointer;
+  text-align: center;
+  padding: 0.25rem;
+  background-color: #72ba4d;
+  margin-bottom: 5%;
+  text-transform: capitalize;
 }
 
 .frame-square {
-    background: #EDEFEF;
-    border: 2px solid ;
-    display: inline-block;
-    vertical-align: top;
-    width: 213px;
-    height: 180px;
-  }
-
-  .crop {
-    height: 100%;
-    overflow: hidden;
-    position: relative;
-  }
-  img {
-      display: block;
-      width: 100%;
-      height: 100%;
-      margin: auto;
-      position: absolute;
-      top: -100%;
-      right: -100%;
-      bottom: -100%;
-      left: -100%;
-  }
-
-  .flight-name-color {
-      color: #006F9D;
-  }
-
-
-  .space_mission_info_font {
-      font-size: 15px;
-      color: #006F9D;
-
-  }
-
-  .footer_class {
-      text-align: center;
-  }
-
-  p {
-    font-size: 15px;
-    color: #006F9D;
-    text-align: center;
-  }
-
-  .opactiy_class {
-    opacity: 0.5;
-
-  }
-
-  .space_info_class {
-    flex: 1 1 auto;
-    min-height: 1px;
-    padding: 1.25rem;
-    min-height: 400px;
-    max-height: 600px;
-    margin-bottom: 5%;
+  background: #edefef;
+  border: 2px solid;
+  display: inline-block;
+  vertical-align: top;
+  width: 213px;
+  height: 180px;
 }
 
+.crop {
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+}
+img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  position: absolute;
+  top: -100%;
+  right: -100%;
+  bottom: -100%;
+  left: -100%;
+}
 
+.flight-name-color {
+  color: #006f9d;
+}
 
+.space_mission_info_font {
+  font-size: 15px;
+  color: #006f9d;
+}
 
-  @media (min-width: 320px) {
-    .filter_padding{
-       max-height: 100%;
-    }
-    .space_info_class {
-      max-height: 500px;
-    
-    }
-    .col_width {
-        width: 120%;
-    }
-    .frame-square  {
-      width: 183px;
-    }
-  }
-  
-  @media (max-width: 481px) {
-    .filter_padding{
-       max-height: 100%;
-    }
-    .space_info_class {
-      max-height: 500px;
-    
-    }
-    .col_width {
-        width: 120%;
-    }
-    .frame-square  {
-        width: 183px;
-      }
-  }
-  
-  @media (max-width: 680px) {
-    .filter_padding{
-       max-height: 100%;
-    }
-    .space_info_class {
-      max-height: 500px;
-    
-    }
-    .col_width {
-        width: 120%;
-    }
-    .frame-square  {
-        width: 183px;
-      }
-  }
-  
-  @media (min-width: 481px) {
-    .filter_padding{
-       max-height: 100%;
-    }
-    .col_width {
-        width: 120%;
-    }
-    .frame-square  {
-        width: 183px;
-      }
-  }
-  @media (min-width: 641px) {
-    
-    .filter_padding{
-       max-height: 100%;
-    }
-    .col_width {
-        width: 120%;
-    }
-    .frame-square  {
-        width: 183px;
-      }
-  }
+.footer_class {
+  text-align: center;
+}
 
-  @media (min-width: 768px) {
-    
-    .filter_padding{
-      width: 160%;
-      max-height: 100%;
-      margin-right: 10%;
-    }
-    .col_width {
-        width: 120%;
-    }
-    .frame-square  {
-        width: 70px;
-      }
-  }
-  @media (min-width: 961px) {
-    
-    .space_info_class {
-      max-height: 600px;
-    
-    }
-     
-    .filter_padding{
-      width: 130%;
-   }
-    .col_width {
-        width: 120%;
-    }
-    .frame-square  {
-        width: 117px;
-      }
+p {
+  font-size: 15px;
+  color: #006f9d;
+  text-align: center;
+}
 
-  }
-  @media (min-width: 1025px) {
-    .filter_padding{
-         max-height: 600px;
-      width: 100%;
+.opactiy_class {
+  opacity: 0.5;
+}
 
-         min-height: 400px;
+.space_info_class {
+  flex: 1 1 auto;
+  min-height: 1px;
+  padding: 1.25rem;
+  min-height: 400px;
+  max-height: 600px;
+  margin-bottom: 5%;
+}
+
+@media (min-width: 320px) {
+  .filter_padding {
+    max-height: 100%;
+  }
+  .space_info_class {
+    max-height: 500px;
   }
   .col_width {
-      width: 120%;
+    width: 120%;
   }
-  .frame-square  {
-    width: 213px;
-    height: 180px;
-    }
-    .space_info_class {
-      max-height: 486px;
-    
-    }
+  .frame-square {
+    width: 183px;
   }
-  
-  @media (min-width: 1281px) {
-    .filter_padding{
-      min-height: 400px;
-      width: 100%;
+}
 
-      max-height: 600px;
+@media (max-width: 481px) {
+  .filter_padding {
+    max-height: 100%;
+  }
+  .space_info_class {
+    max-height: 500px;
   }
   .col_width {
-      width: 120%;
+    width: 120%;
   }
-  .frame-square  {
+  .frame-square {
+    width: 183px;
+  }
+}
+
+@media (max-width: 680px) {
+  .filter_padding {
+    max-height: 100%;
+  }
+  .space_info_class {
+    max-height: 500px;
+  }
+  .col_width {
+    width: 120%;
+  }
+  .frame-square {
+    width: 183px;
+  }
+}
+
+@media (min-width: 481px) {
+  .filter_padding {
+    max-height: 100%;
+  }
+  .col_width {
+    width: 120%;
+  }
+  .frame-square {
+    width: 183px;
+  }
+}
+@media (min-width: 641px) {
+  .filter_padding {
+    max-height: 100%;
+  }
+  .col_width {
+    width: 120%;
+  }
+  .frame-square {
+    width: 183px;
+  }
+}
+
+@media (min-width: 768px) {
+  .filter_padding {
+    width: 160%;
+    max-height: 100%;
+    margin-right: 10%;
+  }
+  .col_width {
+    width: 120%;
+  }
+  .frame-square {
+    width: 70px;
+  }
+}
+@media (min-width: 961px) {
+  .space_info_class {
+    max-height: 800px;
+  }
+
+  .filter_padding {
+    width: 130%;
+  }
+  .col_width {
+    width: 120%;
+  }
+  .frame-square {
+    width: 117px;
+    
+  }
+}
+@media (min-width: 1025px) {
+  .filter_padding {
+    max-height: 600px;
+    width: 100%;
+
+    min-height: 400px;
+  }
+  .col_width {
+    width: 120%;
+  }
+  .frame-square {
     width: 213px;
     height: 180px;
-    }
-    .space_info_class {
-      max-height: 486px;
-    
-    }
   }
+  .space_info_class {
+    max-height: 486px;
+  }
+}
+
+@media (min-width: 1281px) {
+  .filter_padding {
+    min-height: 400px;
+    width: 100%;
+
+    max-height: 600px;
+  }
+  .col_width {
+    width: 120%;
+  }
+  .frame-square {
+    width: 213px;
+    height: 180px;
+  }
+  .space_info_class {
+    max-height: 486px;
+  }
+}

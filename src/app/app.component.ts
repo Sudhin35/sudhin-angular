@@ -26,8 +26,14 @@ export class AppComponent implements OnInit {
     { year: 2020, isSelected: false },
     { year: 2021, isSelected: false },
   ];
-  successFullLaunch = [{ data: true, isSelected: false }, { data: false, isSelected: false },];
-  successFullLanding = [{ data: true, isSelected: false }, { data: false, isSelected: false },];
+  successFullLaunch = [
+    { data: true, isSelected: false },
+    { data: false, isSelected: false },
+  ];
+  successFullLanding = [
+    { data: true, isSelected: false },
+    { data: false, isSelected: false },
+  ];
   programs = [];
   selectedyear: String = '';
   selectedLaunch: String = '';
@@ -42,38 +48,32 @@ export class AppComponent implements OnInit {
     );
   }
 
-  clickedData(item){
-    for(let year of this.years){
+  clickedData(item) {
+    for (let year of this.years) {
       if (year.year == item.year) {
         year.isSelected = true;
-        
       } else {
         year.isSelected = false;
-        
       }
     }
   }
 
-  clickedBooleanData(item){
-    for(let boolean of this.successFullLaunch){
+  clickedBooleanData(item) {
+    for (let boolean of this.successFullLaunch) {
       if (boolean.data == item.data) {
         boolean.isSelected = true;
-        
       } else {
         boolean.isSelected = false;
-        
       }
     }
   }
 
-  clickedBooleanLandingData(item){
-    for(let boolean of this.successFullLanding){
+  clickedBooleanLandingData(item) {
+    for (let boolean of this.successFullLanding) {
       if (boolean.data == item.data) {
         boolean.isSelected = true;
-        
       } else {
         boolean.isSelected = false;
-        
       }
     }
   }
