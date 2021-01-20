@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "sudhin-angular-project"
+    }
+  },
+  "defaultProject": "sudhin-angular-project",
+  "cli": {
+    "analytics": "e422319a-6eb2-4057-a4c5-194a5b5c6312"
+  }
 }
